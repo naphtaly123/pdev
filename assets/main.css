@@ -1,0 +1,46 @@
+.body{
+  color: black;
+  font-size: 14px;
+}
+
+/* Style the logo (assuming the h1 element is your logo) */
+.body h1 {
+  margin: 0;
+  color: black;
+}
+
+.body h3 {
+  margin: 0;
+  color: black;
+}
+
+.left_div, .right_div {
+  width: 50%;  /* Adjust width as needed */
+  float: left; /* Floats elements to the left */
+}
+
+.right_div {
+  float: right; /* Floats the right element to the right edge */
+}
+
+
+/* Style for the navigation bar */
+.navigation {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  display: right; /* Allow elements to sit next to each other */
+  justify-content: space-between; /* Space items evenly on the main axis */
+  padding: 10px 20px; /* Add some padding inside the navigation */
+}
+
+/* Style the navigation links */
+.navigation a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit the color from the navigation */
+  padding: 5px 10px; /* Add some padding to links */
+}
+
+/* Style the links on hover */
+.navigation a:hover {
+  color: #black; /* Change color to a lighter shade of blue on hover */
+}
