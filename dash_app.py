@@ -12,7 +12,7 @@ USER_PASS_MAPPING={
 
 #Initializing the App
 app = Dash(__name__, pages_folder="pages", use_pages=True)
-
+server = app.server
 auth = dash_auth.BasicAuth(app, USER_PASS_MAPPING)
 # App layout
 app.layout = html.Div([    
